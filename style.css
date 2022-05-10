@@ -1,0 +1,304 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600&display=swap");
+* {
+  /* border: 1px red solid; */
+  font-family: "Poppins", sans-serif;
+}
+
+/* NAVBAR */
+
+nav ul {
+  gap: 2rem;
+}
+
+.navbar-toggler:focus {
+  outline: none;
+}
+
+.navbar-brand {
+  border-radius: 20px 0px;
+  padding: 10px !important;
+  background-color: #e76f51;
+}
+
+a.navbar-brand:hover {
+  color: white !important;
+}
+.nav-item a:hover {
+  color: black;
+  cursor: pointer;
+}
+
+.nav-item {
+  padding-right: 20px;
+}
+
+.button {
+  display: flex;
+  margin-top: 1rem;
+  justify-content: center;
+  gap: 1rem;
+}
+
+.btn {
+  background-color: #e76f51;
+  gap: 2rem;
+}
+
+/* BACKGROUND CONTAINER */
+
+.container-background {
+  background-image: url(./images/slider-01.png);
+  aspect-ratio: 2/1.5;
+  background-size: cover;
+  background-position: center;
+}
+
+.search-bar {
+  border-radius: 35px 35px;
+  padding: 0.2rem;
+  gap: 1rem;
+  width: 100%;
+}
+
+.mr-sm-2 {
+  flex: 1;
+  width: fit-content;
+}
+
+.mr-sm-2:focus {
+  outline: none;
+}
+
+.container-upload {
+  background-color: #e76f51;
+  width: 100%;
+  border-radius: 35px 35px;
+  padding: 10px;
+}
+
+.upload-img {
+  max-width: 25px;
+  max-height: 25px;
+}
+
+.upload {
+  background-color: #e76f51;
+  border-radius: 35px 35px;
+  cursor: pointer;
+}
+
+.search-icon {
+  max-width: 45px;
+  max-height: 45px;
+  padding: 10px;
+  margin-right: 1.5rem;
+  cursor: pointer;
+}
+
+.container-search-icon {
+  display: flex;
+  padding: 10px;
+}
+
+.upload:focus {
+  outline: none;
+}
+
+.text-container {
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+/* QUICK RESPONSE */
+
+.box-container .heading {
+  font-size: 20px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.box-container .paragraph {
+  font-size: 10px;
+  text-align: center;
+  margin-top: 10px;
+}
+
+.icon-container {
+  background-color: #e76f51;
+  border-radius: 50px;
+  width: 50px;
+  height: 50px;
+  padding: 10px;
+  aspect-ratio: 1/1;
+}
+
+/* ADVANCE CONTAINER */
+
+.advance-outer-container {
+  background-color: #e76f51;
+}
+
+.knowmore-heading p {
+  margin-top: 20px !important;
+}
+
+.knowmore-heading ul {
+  padding-left: 15px !important;
+}
+
+.know-btn {
+  color: #e76f51;
+  border-radius: 35px 35px !important;
+  margin-top: 10px;
+}
+
+/* FIND TEACHER */
+
+.text {
+  font-size: x-small;
+}
+
+.hr-container {
+  gap: 0.5rem;
+}
+
+hr {
+  background-color: #e76f51;
+  height: 10px;
+  flex: 1;
+  margin-top: 10px !important;
+}
+
+.box {
+  padding: 5px;
+  box-shadow: 0px 0px 10px gray;
+  border-radius: 10px;
+  flex: 1;
+  margin-top: 10px;
+  gap: 0.5rem;
+}
+
+.feature-img {
+  height: 50px;
+  padding: 10px;
+}
+
+.math-para {
+  font-size: 10px;
+  font-weight: bold;
+}
+
+.maths-container {
+  margin-top: 10px;
+}
+
+.maths-container h6 {
+  font-size: x-small;
+}
+
+.dark-outer-container {
+  background-color: black;
+}
+
+.more-container {
+  color: #e76f51;
+  cursor: pointer;
+}
+
+.social-icon-container ion-icon {
+  padding: 00.5rem;
+}
+
+/* SIGN IN */
+
+.modal-body {
+  padding: 3rem !important;
+}
+
+.modal-body p {
+  color: gray;
+}
+
+.detail {
+  border: none;
+  width: 100%;
+}
+
+.detail:focus {
+  outline: none;
+}
+
+.remember-container {
+  display: flex;
+  gap: 3rem;
+}
+
+.signin-btn {
+  background-color: #e76f51;
+  border-radius: 10px !important;
+  padding: 10px 150px 10px;
+  cursor: pointer;
+}
+
+.signin-btn:focus {
+  outline: none;
+}
+
+.forgot {
+  color: #e76f51 !important;
+}
+
+.continue-container {
+  margin-top: 20px;
+}
+
+.continue-container hr {
+  flex: 1;
+  margin-top: 4px !important;
+}
+
+.social-btn {
+  width: 100%;
+  gap: 6rem;
+}
+
+.fb-btn {
+  background-color: #4267b2;
+  border-radius: 5px;
+  padding: 10px 25px 10px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.fb-btn:focus {
+  outline: none;
+}
+
+.google-btn {
+  border: 1px solid gray;
+  color: gray;
+  border-radius: 5px;
+  padding: 9px 30px 9px;
+  gap: 1rem;
+  cursor: pointer;
+}
+
+.google-btn:focus {
+  outline: none;
+}
+
+@media only screen and (min-width: 960px) {
+  .button {
+    margin-top: 0;
+    margin-left: 1rem;
+  }
+
+  .slider-img {
+    width: 100%;
+  }
+
+  .container-background {
+    aspect-ratio: 16/6.9;
+  }
+}
